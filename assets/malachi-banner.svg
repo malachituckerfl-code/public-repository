@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Malachi Tucker engineering profile banner</title>
+  <desc id="desc">Dark neon banner for an electrical and computer engineering portfolio</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060913"/>
+      <stop offset="0.48" stop-color="#10112b"/>
+      <stop offset="1" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#00e5ff"/>
+      <stop offset="0.55" stop-color="#4ae7ff"/>
+      <stop offset="1" stop-color="#9b4dff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#39d8ff" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <path d="M0 235 C180 195 295 278 465 225 S800 170 1200 225 V300 H0Z" fill="#111836" opacity=".75"/>
+  <path d="M0 245 C190 205 315 285 500 232 S825 185 1200 232" fill="none" stroke="#00e5ff" stroke-opacity=".18" stroke-width="2"/>
+  <g opacity=".5" fill="none" stroke="url(#neon)">
+    <path d="M80 64h90l22 22h76"/>
+    <path d="M1030 68h-72l-20 20h-58"/>
+    <circle cx="76" cy="64" r="5" fill="#00e5ff"/>
+    <circle cx="1035" cy="68" r="5" fill="#9b4dff"/>
+  </g>
+  <text x="600" y="122" text-anchor="middle" fill="url(#neon)" filter="url(#glow)" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="800" letter-spacing="5">MALACHI TUCKER</text>
+  <text x="600" y="165" text-anchor="middle" fill="#b9c7da" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="3">ELECTRICAL + COMPUTER ENGINEERING</text>
+  <line x1="335" y1="190" x2="865" y2="190" stroke="url(#neon)" stroke-width="2" opacity=".8"/>
+  <text x="600" y="226" text-anchor="middle" fill="#00e5ff" font-family="Courier New, monospace" font-size="18" font-weight="700">EMBEDDED SYSTEMS • IoT • ENERGY INNOVATION</text>
+  <rect x="1.5" y="1.5" width="1197" height="297" rx="17" fill="none" stroke="url(#neon)" stroke-opacity=".42" stroke-width="3"/>
+</svg>
