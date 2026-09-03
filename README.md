@@ -50,7 +50,7 @@ identity:
 
 ## 🔥 `> FEATURED_PROJECTS`
 
-### FlexTEG Thermal Tape
+### Flex Thermal Tape
 
 A flexible thermoelectric concept designed to capture waste heat from engines, exhaust systems, hot pipes, heat exchangers, and industrial equipment—and convert the temperature difference directly into electrical energy using the Seebeck effect.
 
