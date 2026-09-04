@@ -25,7 +25,7 @@ identity:
     - IoT architecture and project leadership
     - Power, energy, and thermoelectric systems
     - Hardware design and system integration
-  current_project: "FlexTEG Thermal Tape — converting waste heat into electricity"
+  current_project: "Flex Thermal Tape — converting waste heat into electricity"
   status: "OPEN TO INTERNSHIPS, COLLABORATION, AND ENGINEERING OPPORTUNITIES"
 ```
 
